@@ -17,13 +17,13 @@ url: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original
   (attribute 2 – 10). Do you see strong correlation between any two attributes?
 
 ## Tips
-1.Because the dataset of "Breast Cancer Wisconsin (Original) Data Set" have some ? value
-  so we need to check the dataset and let it clean
+Because the dataset of "Breast Cancer Wisconsin (Original) Data Set" have some ? value
+so we need to check the dataset and let it clean
 
-  Randomly draw 70% fot training & 30% for Testing
+Randomly draw 70% fot training & 30% for Testing
 
-  Repeat 10 times and compute the average accuracy
+Repeat 10 times and compute the average accuracy
 
-  plot the curve of k versus accuracy for k = 3, ..., 15
+plot the curve of k versus accuracy for k = 3, ..., 15
 
 ## Conclusion
