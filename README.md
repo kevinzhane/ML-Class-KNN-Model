@@ -27,3 +27,18 @@ Repeat 10 times and compute the average accuracy
 plot the curve of k versus accuracy for k = 3, ..., 15
 
 ## Conclusion
+
+url: https://www.ritchieng.com/machine-learning-k-nearest-neighbors-knn/
+
+(chinese)
+url: https://ithelp.ithome.com.tw/articles/10197110 
+
+In this case we don't need LogisticRegression,so we just use the k-nn model.
+Because we random split data and find average accurcy,so each operate result and plot 
+will be different.
+
+If you don't want to use sklearn model to practice k-nn,you can just use the Euclidean distance 
+in your computation. And you need to compute each point distance and find a range depend on 
+k value. It might take a lots of time,so if you want to know the K-NN algorithm.
+you can read the follow article,it help me a lot.
+https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
